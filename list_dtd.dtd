@@ -1,0 +1,14 @@
+<!ELEMENT root (item,references)>
+<!ELEMENT item (software+)>
+<!ATTLIST item type CDATA #REQUIRED>
+<!ELEMENT software (name,icon,description)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT icon EMPTY>
+<!ATTLIST icon src CDATA #REQUIRED
+			   width CDATA #REQUIRED
+			   height CDATA #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT references (ref+)>
+<!ELEMENT ref (#PCDATA)>
+<!ATTLIST ref software CDATA #REQUIRED>

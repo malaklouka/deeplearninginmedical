@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root SYSTEM "list_dtd.dtd" >
+<?xml-stylesheet type="text/xsl" href="list_xsl.xsl"?>
+<root>
+
+	<item type="Générique">
+		<software>
+			<name>Skin cancer</name>
+			<icon src="other_icons/cancer.jpg" width="200" height="200" />
+			<description>Skin cancer, the most common human malignancy is primarily diagnosed visually, beginning with an initial clinical screening and followed potentially by dermoscopic analysis, a biopsy and histopathological examination. Automated classification of skin lesions using images is a challenging task owing to the fine-grained variability in the appearance of skin lesions. Deep convolutional neural networks (CNNs) show potential for general and highly variable tasks across many fine-grained object categories6,7,8,9,10,11. Here we demonstrate classification of skin lesions using a single CNN, trained end-to-end from images directly, using only pixels and disease labels as inputs. We train a CNN using a dataset of 129,450 clinical images two orders of magnitude larger than previous datasets12 consisting of 2,032 different diseases. We test its performance against 21 board-certified dermatologists on biopsy-proven clinical images with two critical binary classification use cases: keratinocyte carcinomas versus benign seborrheic keratoses; and malignant melanomas versus benign nevi.
+The first case represents the identification of the most common cancers, the second represents the identification of the deadliest skin cancer.
+			</description>
+			
+		</software>
+		<software>
+			<name>Alzeihmer</name>
+			<icon src="other_icons/alz.jpg" width="200" height="200" />
+			<description>The accurate diagnosis of Alzheimer's disease (AD) plays a significant role in patient care, especially at the early stage, because the consciousness of the severity and the progression risks allows the patients to take prevention measures before irreversible brain damages are shaped.
+Although many studies have applied machine learning methods for computer aided diagnosis (CAD) of AD recently, a bottleneck of the diagnosis performance was shown in most of the existing researches, mainly due to the congenital limitations of the chosen learning models.
+In this study, we design a deep learning architecture, which contains stacked autoencoders and a softmax output layer, to overcome the bottleneck and aid the diagnosis of AD and its prodromal stage, Mild Cognitive Impairment (MCI).
+Compared to the previous workflows, our method is capable of analyzing multiple classes in one setting, and requires less labeled training samples and minimal domain prior knowledge. 
+A significant performance gain on classification of all diagnosis groups was achieved in our experiments
+			</description>
+			
+		</software>
+		
+		<software>
+			<name>Leukemia</name>
+			<icon src="other_icons/je.png" width="200" height="200" />
+			<description>Acute Leukemia is a life-threatening disease common both in children and adults that can lead to death if left untreated. Acute Lymphoblastic Leukemia (ALL) spreads out in children's bodies rapidly and takes the life within a few weeks. To diagnose ALL, the hematologists perform blood and bone marrow examination. Manual blood testing techniques that have been used since long time are often slow and come out with the less accurate diagnosis. This work improves the diagnosis of ALL with a computer aided system, which yields accurate result by using image processing and deep learning techniques. This research proposed a method for the classification of ALL into its subtypes and reactive bone marrow (normal) in stained bone marrow images.
+A robust segmentation and deep learning techniques with the convolutional neural network are used to train the model on the bone marrow images to achieve accurate classification results.
+Experimental results thus obtained and compared with the results of other classifiers Naïve Bayesian, KNN, and SVM. Experimental results reveal that the proposed method achieved 97.78% accuracy.
+The obtained results exhibit that the proposed approach could be used as a tool to diagnose Acute Lymphoblastic Leukemia and its subtypes that will definitely assist pathologists.
+			</description>
+			
+		</software>
+		
+		<software>
+			<name>Cardiology</name>
+			<icon src="other_icons/card.png" width="200" height="200" />
+			<description>Our intention is to produce a computer aided diagnosis tool to assist clinicians in diagnosing heart disease and planning its treatment using motion and/or deformation information. The tool will be based on the latest deep learning techniques, and the application of deep learning to cardiac motion analysis represents the first main novelty of this project. The second novelty lies in the explanatory power of the tool. 
+			By offering clear and intuitive information that can help to generate explanations for its outputs it is hoped that one of the most significant obstacles to the clinical translation of machine learning techniques in medicine can be overcome.
+			</description>
+			
+		</software>
+		
+		<software>
+			<name>Robotic surgery</name>
+			<icon src="other_icons/img12.jpg" width="200" height="200" />
+			<description>With the advent of robot assisted surgery, the role of data driven approaches to integrate statistics and machine learning is growing rapidly with prominent interests in objective surgical skill assessment.
+However, most existing work requires translating robot motion kinematics into intermediate features or gesture segments that are expensive to extract, lack efficiency, and require significant domain-specific knowledge. We propose an analytical deep learning framework for skill assessment in surgical training. A deep convolutional neural network is implemented to map multivariate time series data of the motion kinematics to individual skill levels. We perform experiments on the public minimally invasive surgical robotic dataset, JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS). Our proposed learning model achieved a competitive accuracy of 94.1%, 90.3%, and 86.8%, in the standard training tasks: Suturing, Needle-passing, and Knottying, respectively. Without the need of engineered features or carefully-tuned gesture segmentation, our model can successfully decode skill information from raw motion profiles via end to end learning. Meanwhile, the proposed model is able to reliably interpret skills within 1-3 second window, without needing an observation of entire training trial.
+This study highlights the potentials of deep architectures for an proficient online skill assessment in modern surgical training
+			</description>
+			
+		</software>
+		
+		<software>
+			<name>Medical imaging</name>
+			<icon src="other_icons/img333.jpg" width="200" height="200" />
+			<description>Deep neural networks are now the state of the art machine learning models across a variety of areas, from image analysis to natural language processing, and widely deployed in academia and industry.
+These developments have a huge potential for medical imaging technology, medical data analysis, medical diagnostics and healthcare in general, slowly being realized. We provide a short overview of recent advances and some associated challenges in machine learning applied to medical image processing and image analysis.
+As this has become a very broad and fast expanding field we will not survey the entire landscape of applications, but put particular focus on deep learning in MRI.Our aim is threefold:
+* give a brief introduction to deep learning with pointers to core references 
+* indicate how deep learning has been applied to the entire MRI processing chain, from acquisition to image retrieval, from segmentation to disease prediction 
+* provide a starting point for people interested in experimenting and perhaps contributing to the field of machine learning for medical imaging by pointing out good educational resources, state-of-the-art open-source code, and interesting sources of data and problems related medical imaging.
+			</description>
+			
+		</software>
+		
+		<software>
+			<name>Counting primordial follicles</name>
+			<icon src="other_icons/fol.png" width="200" height="200" />
+			<description>The evaluation of the number of mouse ovarian primordial follicles (PMF) can provide important information about ovarian function, regulation of folliculogenesis or the impact of chemotherapy on fertility. This counting, usually performed by specialized operators, is a tedious, time consuming but indispensable procedure.
+The development and increasing use of deep machine learning algorithms promise to speed up and improve this process. Here, we present a new methodology of automatically detecting and counting PMF, using convolutional neural networks driven by labelled datasets and a sliding window algorithm to select test data.
+Trained from a database of 9 millions of images extracted from mouse ovaries, and tested over two ovaries (3 millions of images to classify and 2 000 follicles to detect), the algorithm processes the digitized histological slides of a completed ovary in less than one minute, dividing the usual processing time by a factor of about 30. It also outperforms the measurements made by a pathologist through optical detection. 
+Its ability to correct label errors enables conducting an active learning process with the operator, improving the overall counting iteratively. These results could be suitable to adapt the methodology to the human ovarian follicles by transfer learning.
+			</description>
+			
+		</software>
+		
+	</item>
+	
+	
+	
+	
+	
+	<references>
+		<ref software="VTK">[1] "VTK - The Visualization Toolkit." [En ligne]. Disponible
+			sur: https://www.vtk.org/. [Consulté le: 20-avril-2018].</ref>
+		<ref software="ITK">[2] "ITK - Segmentation &amp; Registration Toolkit." [En ligne]. Disponible
+			sur: https://itk.org/. [Consulté le: 20-avril-2018].</ref>
+		
+	</references>
+</root>
